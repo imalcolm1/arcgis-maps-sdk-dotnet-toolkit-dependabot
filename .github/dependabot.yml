@@ -12,6 +12,6 @@ updates:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     cooldown:
-      - default-days: 2
+      default-days: 2
     schedule:
       interval: "weekly"
