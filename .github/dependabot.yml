@@ -8,5 +8,10 @@ updates:
       - "/src/Tests/UITests/Toolkit.UITests.Wpf.App/"
       - "/src/Tests/UITests/Toolkit.UITests.WinUI.App/"
       - "/src/Tests/UITests/Toolkit.UITests.Maui.App/"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    cooldown:
+      - default-days: 2
     schedule:
       interval: "weekly"
