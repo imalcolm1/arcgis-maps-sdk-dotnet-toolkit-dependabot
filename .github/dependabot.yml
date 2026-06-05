@@ -5,6 +5,8 @@ updates:
   - package-ecosystem: "nuget" # https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#package-ecosystem-
     directories:
       - "/src/Tests/UITests/Toolkit.UITests.Wpf/"
+      - "/src/Tests/UITests/Toolkit.UITests.Wpf.App/"
+      - "/src/Tests/UITests/Toolkit.UITests.WinUI.App/"
       - "/src/Tests/UITests/Toolkit.UITests.Maui.App/"
     schedule:
       interval: "weekly"
