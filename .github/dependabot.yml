@@ -4,7 +4,8 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#package-ecosystem-
     directories:
-      - "/src/Tests/**"
+      - "/src/Tests/Toolkit.Tests/*"
+      - "/src/Tests/UITests/*"
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
